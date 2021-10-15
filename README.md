@@ -1,1 +1,4 @@
-# A_Tasty_Melon
+# Authors
+
+## Head Programmer
+*A_Tasty_Melon*
