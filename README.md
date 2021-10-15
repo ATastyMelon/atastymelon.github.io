@@ -1,4 +1,7 @@
 # Authors
 
 ## Head Programmer
-*A_Tasty_Melon*
+_*A_Tasty_Melon*_
+
+## Head Website Designer
+_*A_Tasty_Melon*_
