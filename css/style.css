@@ -1,13 +1,39 @@
-@media (max-width: 1440px){
-  .MainPage {
-      max-width: fit-content;
-      margin-inline: auto;
-      font-size: 2vw;
-      text-allign: center;
-  }
+@media (max-width: 1000000px) {
+
+    body {
+        background-color: black;
+        background-image: url('../assets/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+        font-family: 'Minecraft';
+    // font-size: 1.5vw;
+        text-shadow: 3px 2px 5px black;
+    }
+
+    a {
+        color: lime;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+    p {
+        font-size: 1.3vw;
+    }
+
+    h1, h2, p {
+        color: white;
+        max-width: fit-content;
+        margin-inline: auto;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
   .MainPage {
       max-width: none;
@@ -15,10 +41,34 @@
       font-size: 3.2vw;
       text-wrap-style: pretty;
   }
+    body {
+        background-color: black;
+        background-image: url('../assets/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 
-  h2 {
-    font-size: 3.8vw;
-  }
+        font-family: 'Minecraft';
+        font-size: 1.5vw;
+        text-shadow: 3px 2px 5px black;
+    }
+
+    a {
+        color: lime;
+    }
+
+    h1, h2 {
+        font-size: 3.5vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+
+    h1, h2, p {
+        color: white;
+        max-width: fit-content;
+        margin-inline: auto;
+    }
 }
 
 @font-face {
@@ -28,30 +78,3 @@
     font-style: normal;
     font-display: swap;
 }
-
-body {
-    background-color: black;
-    background-image: url('../assets/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto auto;
-
-    font-family: 'Minecraft';
-    // font-size: 1.5vw;
-    text-shadow: 3px 2px 5px black;
-}
-
-a {
-    color: lime;
-}
-
-h1 {
-    font-size: 4vw;
-}
-
-h1, h2, p {
-    color: white;
-    max-width: fit-content;
-    margin-inline: auto;
-}
-
