@@ -1,3 +1,26 @@
+@media (max-width: 1440px){
+  .MainPage {
+      max-width: fit-content;
+      margin-inline: auto;
+      font-size: 2vw;
+      text-allign: center;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .MainPage {
+      max-width: none;
+      margin-inline: auto;
+      font-size: 3.2vw;
+      text-wrap-style: pretty;
+  }
+
+  h2 {
+    font-size: 3.8vw;
+  }
+}
+
 @font-face {
     font-family: Minecraft;
     src: url("../assets/Minecraft.ttf");
@@ -14,7 +37,7 @@ body {
     background-size: cover;
 
     font-family: 'Minecraft';
-    font-size: 1.5vw;
+    // font-size: 1.5vw;
     text-shadow: 3px 2px 5px black;
 }
 
@@ -32,7 +55,3 @@ h1, h2, p {
     margin-inline: auto;
 }
 
-.MainPage {
-    max-width: fit-content;
-    margin-inline: auto;
-}
