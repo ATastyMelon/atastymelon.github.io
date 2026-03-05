@@ -34,7 +34,7 @@ body {
     background-image: url('../assets/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto auto;
 
     font-family: 'Minecraft';
     // font-size: 1.5vw;
