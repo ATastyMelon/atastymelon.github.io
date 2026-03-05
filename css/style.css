@@ -1,21 +1,10 @@
 body {
-    background-color: lime;
+    background-color: black;
+    background-image: url('res/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-
-h1 {
-    color: red;
-    text-align: center;
-}
-
-h2 {
-    color: red;
-    text-align: center;
-}
-
 p {
-    text-align: center;
-}
-
-a {
-    color: red;
+    color: white;
 }
